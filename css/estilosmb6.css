@@ -1,0 +1,171 @@
+
+/*FONDO*/
+body {
+  font-family: 'Shrikhand', cursive;
+font-family: 'Playfair Display', serif;
+   background-image: url("http://rc.missionkits.org/regnumchristi/organizacion/Documentos/Logo%20RC%20camino%20final.jpg");
+    background-size: 100%;
+}
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+
+/* AMBA*/
+header {
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: #333;
+  
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+    float: left;
+    width: 30%;
+    height: 300px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 20px;
+}
+/* Gracias por tu visita*/
+footer {
+    padding: 30px;
+    text-align: center;
+    color: white;
+  width: 200px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: 3;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color:transparent; left:0px; top:0px;}
+    25%  {background-color:transparent; left:200px; top:0px;}
+    50%  {background-color:transparent; left:200px; top:200px;}
+    75%  {background-color:transparent; left:0px; top:200px;}
+    100% {background-color:transparent; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color:transparent; left:0px; top:0px;}
+    25%  {background-color:transparent; left:200px; top:0px;}
+    50%  {background-color:transparent; left:200px; top:200px;}
+    75%  {background-color:transparent; left:0px; top:200px;}
+    100% {background-color:transparent; left:0px; top:0px;}
+}
+
+p span {
+  float: right;
+}
+/*enlaces*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0.5px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+/*letras del enlace */
+li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 15px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:black;
+
+}
+/*Buenos aires ciudad*/
+.amar {
+  background-color: yellow ;
+  color: black;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: aliceblue;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: none;
+}
+.button {
+    background-color: #BA0B0B; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button3 {width: 100%;}
+strong{
+color:white;
+  text-align: center;
+}
+div {
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 4s;
+}
+
+div:hover {
+    width: 300px;
+    height: 300px;
+}
+h3{
+color:black;
+}
